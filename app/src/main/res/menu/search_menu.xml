@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- item for our search view -->
+    <item
+        android:id="@+id/actionSearch"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <!--we are using  app:showAsAction="ifRoom" so that share
+        button is added in toolbar. -->
+    <item
+        android:id="@+id/shareButton"
+        android:icon="@drawable/share_icon"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+</menu>

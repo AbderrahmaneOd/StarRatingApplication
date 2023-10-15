@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="11dp"
+    android:elevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/idStarId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/idStarImage"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/idStarNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:text="Star Nom"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/idStarImage"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/idStarImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:shapeAppearanceOverlay="@style/circleImageView"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <RatingBar
+            android:id="@+id/IdRatingBar"
+            style="@android:style/Widget.Material.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/idStarImage"
+            android:paddingBottom="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/idStarImage"
+            android:clickable="false"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.1" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
