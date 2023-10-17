@@ -145,19 +145,15 @@ public class ListActivity extends AppCompatActivity {
         StarService starService = StarService.getInstance();
 
         // below line is to add data to our array list.
-        starService.create(new Star("kate bosworth", "https://media1.popsugar-assets.com/files/thumbor/Naz9jjkeK7vb7xtgNDenra6sB4o/0x62:769x1119/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2022/05/18/518/n/44490375/4ad285e96284d8179f8d19.98869593_/i/up-and-coming-british-male-actors.jpg", 3));
-        starService.create(new Star("george clooney", "https://hips.hearstapps.com/hmg-prod/images/mh-12-16-australians-1608143046.jpg?crop=0.231xw:0.462xh;0.731xw,0.0705xh&resize=640:*", 3));
-        starService.create(new Star("michelle rodriguez",
-                "https://images.fandango.com/ImageRenderer/300/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/205550/ChrisEvans-2019_r.jpg", 5));
-        starService.create(new Star("george clooney", "https://imgix.ranker.com/user_node_img/23/458938/original/andrew-garfield-theater-actors-photo-u34", 1));
-        starService.create(new Star("louise bouroin", "https://i0.wp.com/flickside.com/wp-content/uploads/2022/11/highest-paid-actors.jpg?fit=1200%2C900&ssl=1", 5));
-        starService.create(new Star("louise bouroin", "https://images.augustman.com/wp-content/uploads/2020/09/14123902/Chris-Delmas-AFP.jpg", 4));
-        starService.create(new Star("louise bouroin", "https://i.pinimg.com/550x/75/06/5d/75065da93d181c15f8266289313231c6.jpg", 3));
-        starService.create(new Star("Tom Holland", "https://www.hollywoodreporter.com/wp-content/uploads/2017/07/tom_holland_-_getty_-_h_2017.jpg?w=800", 2));
-        starService.create(new Star("louise bouroin", "https://i.insider.com/5a9da45be6a9cf17008b4643?width=750&format=jpeg&auto=webp", 2));
-        starService.create(new Star("louise bouroin", "https://i.insider.com/5a9ed8a45cc4102c048b459f?width=1000&format=jpeg&auto=webp", 2));
-        starService.create(new Star("louise bouroin", "https://cdn.shopify.com/s/files/1/0182/8937/files/tom_hordy_1024x1024.jpg?v=1482502984", 2));
-        starService.create(new Star("louise bouroin", "https://cdn-aikll.nitrocdn.com/zpODUSdXaRhrjOSnTvJWtCYyNCoHlwTB/assets/images/optimized/rev-b4a2829/beardoholic.com/wp-content/uploads/2022/11/henry-cavill.jpg", 2));
+        starService.create(new Star("Ismael Huang", "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY5NzU4MTY2NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500", 3));
+        starService.create(new Star("Eduardo Hancock", "https://images.unsplash.com/photo-1613181013804-1dcba09e6a9d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY5NzU4MTY5Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500", 3));
+        starService.create(new Star("Roland Lloyd", "https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY5NzU4MTc5MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500", 2));
+        starService.create(new Star("Oliver Forbes", "https://images.unsplash.com/photo-1577880216142-8549e9488dad?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY5NzU4MTgxMQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500", 5));
+        starService.create(new Star("Lonnie Mansfield", "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY5NzU4MTgyMQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500", 5));
+        starService.create(new Star("Brandon Jordan", "https://images.unsplash.com/photo-1552642986-ccb41e7059e7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY5NzU4MTgzOA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500", 4));
+        starService.create(new Star("Calvin Baker", "https://source.unsplash.com/500x500/?man", 5));
+        starService.create(new Star("Salvador Hernandez", "https://images.unsplash.com/photo-1581382575646-a4d90bb53a4a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY5NzU4MTkxMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500", 5));
+        starService.create(new Star("Jon Norris", "https://images.unsplash.com/photo-1549237511-bbe6a0979d6a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY5NzU4MTkyOA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500", 1));
 
 
 
