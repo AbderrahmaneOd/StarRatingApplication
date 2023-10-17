@@ -1,4 +1,3 @@
-# StarRatingApplication
 # Star Rating Application with Java
 
 ### 1. Home page
