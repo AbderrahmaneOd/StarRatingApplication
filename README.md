@@ -2,12 +2,10 @@
 # Star Rating Application with Java
 
 ### 1. Home page
-   ![Screenshot of the home page 1](images/HomePage1.jpg)
-   ![Screenshot of the home page 2](images/HomePage2.jpg)
+   <img src="images/HomePage1.jpg" alt="Screenshot of the home page 1" width="250"/>       <img src="images/HomePage2.jpg" alt="Screenshot of the home page 2" width="250"/>
 
 ### 2. Edit star
-   ![Screenshot of the edit page 1](images/EditPage1.jpg)
-   ![Screenshot of the edit page 2](images/EditPage2.jpg)
+   <img src="images/EditPage1.jpg" alt="Screenshot of the edit page 1" width="250"/>       <img src="images/EditPage2.jpg" alt="Screenshot of the edit page 2" width="250"/>
 
 ### 3. Search
-   ![Screenshot of the search page](images/SearchStar.jpg)
+   <img src="images/SearchStar.jpg" alt="Screenshot of the search page" width="250"/>
